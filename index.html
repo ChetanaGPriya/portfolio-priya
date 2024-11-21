@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio - Chetana Priya Ghanta</title>
+
+    <!-- bootstrap css cdn link  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <!-- custom css file -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- bootstrap icon cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+
+    <!-- for adding animation to website we have use AOS library 
+    AOS Library css file cdn link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- jquery cdn link  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  </head>
+  <body>
+    <!-- navbar starts -->
+    <nav
+      id="navbar-top"
+      class="navbar navbar-expand-lg navbar-light bg-white sticky-top"
+    >
+      <div class="container-fluid px-5">
+        <a class="navbar-brand fw-bold fs-2" href="#" style="color: #2d265d"
+          >Portfolio</a
+        >
+        <button
+          class="nav-menu d-md-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <i class="bi bi-menu-button-fill"></i>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav gap-4" style="font-size: 1.1rem">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#service">Areas of Interest</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">Resume</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#education">Education</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Projects</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#experiences">Experiences</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+          </ul>
+        </div>
+        
+      </div>
+    </nav>
+    <!-- navbar ends here -->
+
+    <!-- home section starts  -->
+    <section class="home pt-5 pb-5" id="home">
+      <div class="row justify-content-evenly align-middle">
+        <!-- here data-aos is used for adding aos animation  -->
+        <div class="col-10 col-md-6 text-center text-md-start" data-aos="slide-right">
+          <h2 style="color: #1f1a4b">
+            Hello! I Am <br /><span class="c-orange">Chetana Priya Ghanta</span>
+          </h2>
+          <p class="text-muted">
+            I have a deep passion for technology and data. Throughout my academic and professional journey, I have engaged in numerous exciting projects and gained diverse experiences. I am consistently eager to learn and leverage my skills to address real-world challenges. Whether it’s analyzing complex data sets or developing innovative solutions, I am motivated by a strong drive to harness technology and data to create a positive impact.
+          </p>
+          
+          <a href="" class="link ms-4 d-none">See My Work</a>
+        </div>
+        <div class="col-10 col-md-4 d-none d-md-block">
+          <img src="images/Chetanapriya.jpeg" class="img-fluid" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- home section ends here -->
+
+    <!-- expertise section starts -->
+    <section class="expertise mt-5" id="service">
+      <div class="heading text-center">
+        <small></small>
+        <h3>
+          Areas of Interest <br />
+        </h3>
+      </div>
+      <div class="row justify-content-evenly mt-5">
+        <div class="col-10 col-md-4" data-aos="fade-up">
+          <div class="service-card">
+            <div class="img">
+              <img
+                src="images/service-icon1.png"
+                class="w-25 img-fluid img"
+                alt=""
+              />
+            </div>
+            <div class="content mt-3">
+              <h4>Data Analysis and Machine Learning</h4>
+              <p class="text-muted">
+                Leveraging statistical methods and machine learning models
+                 to uncover insights from data and solve business problems.
+              </p>
+             
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-10" data-aos="fade-up">
+          <div class="service-card">
+            <div class="img">
+              <img
+                src="images/service-icon2.png"
+                class="w-25 img-fluid img"
+                alt=""
+              />
+            </div>
+            <div class="content mt-3">
+              <h4>Optimization and Decision Modeling</h4>
+              <p class="text-muted">
+                Developing mathematical models to optimize resources and support strategic decisions in business operations.
+              </p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-10" data-aos="fade-up">
+          <div class="service-card">
+            <div class="img">
+              <img
+                src="images/service-icon3.png"
+                class="w-25 img-fluid img"
+                alt=""
+              />
+            </div>
+            <div class="content mt-3">
+              <h4>Business Intelligence and Dashboarding</h4>
+              <p class="text-muted">
+                Designing interactive dashboards and visualizations to translate data into actionable insights.
+              </p>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- expertise section ends here -->
+
+    <!-- skill section starts -->
+    <section class="skill mt-5 py-5" id="education">
+      <div class="row justify-content-evenly">
+        <div class="col-10 col-md-5 skill-with-progress" data-aos="slide-right">
+          <div class="row justify-content-evenly">
+            <div class="col-10 col-md-6">
+              
+            </div>
+            
+          </div>
+          <div class="col-10 col-md-6 mt-4 mt-md-0">
+            
+          </div>
+        </div>
+          <div class="row justify-content-evenly mt-4">
+            <div class="col-10 col-md-6">
+              
+            </div>
+            <div class="col-10 col-md-6 mt-4 mt-md-0">
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-10 col-md-5 skill-detail" data-aos="slide-left">
+          <div class="heading mt-5 mt-md-3">
+            
+            </p>
+            <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+              <!-- here download attribute is used for adding download functionality to button  -->
+              <a
+                href="RESUME-Chetana_Priya_Ghanta-baa.pdf"
+                download="SampleCV"
+                style="text-decoration: none;color: rgb(14, 13, 13);"
+                >Download Resume</a
+              >
+            </button><br><br><br>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- skill section end here -->
+    <section class="blog mt-5 pb-5" id="blog">
+        <div class="heading text-center pt-5">
+          <small></small>
+          <h3>Education</h3>
+        </div>
+        <div class="row justify-content-evenly px-4 mt-4" data-aos="fade-up">
+          <div class="blogpost col-md-6 col-10 mt-2 mt-md-0 game all">
+            <div class="card">
+              
+              <div class="card-body px-4">
+                <img src="images/carey-img.jpeg" alt=""><br>
+                <small>August 2023 - December 2024</small
+                ><span class="ms-3"></span>
+                <h4 class="card-title">
+                  W.P Carey School of Business -  Arizona State University
+                </h4>
+                <p class="text-muted">
+                 <b>Master of Science in Business Analytics - FinTech</b><br>
+  <br>
+  <span class="badge bg-secondary badge-pill">SQl</span>
+  <span class="badge bg-secondary badge-pill mb-2">Tableau</span>
+    <span class="badge bg-secondary badge-pill">Analytical Decision Modeling - Solver, Palisade</span>
+  <span class="badge bg-secondary badge-pill">Machine Learning</span>
+  <span class="badge bg-secondary badge-pill">Statistics - Descriptive & Predictive Analytics</span>
+  <span class="badge bg-secondary badge-pill">Lean Six Sigma</span>
+  <span class="badge bg-secondary badge-pill mb-2">Text Analysis</span
+  ><span class="badge bg-secondary badge-pill">Accounting, Cashflows</span>
+  <span class="badge bg-secondary badge-pill">Blockchain</span>
+  <span class="badge bg-secondary badge-pill mb-2">Investment Strategies</span
+  ><br /></p>
+                <a href="#" class="read-more-btn link" data-bs-toggle="modal" data-bs-target="#exampleModal1"></a>
+              </div>
+            </div><br><br><br>
+            <h4><a href="Membership Certificate-BGS-2.pdf">Beta Gamma Sigma Honor Society Membership</a></h4>
+          </div>
+          <div class="blogpost col-md-6 col-10 mt-5 mt-md-0 website all">
+            <div class="card">
+              
+              <div class="card-body px-4">
+                <img src="images/au-img.jpeg" alt=""><br><br>
+                <small>August 2019 - May 2023</small
+                ><span class="ms-3"></span>
+                <h4 class="card-title">
+                 Andhra University
+                </h4>
+                <p class="text-muted">
+                <b>Bachelor of Technology in Computer Science</b>
+  <br><br><span class="badge bg-secondary badge-pill">C, C++</span>
+  <span class="badge bg-secondary badge-pill mb-2">Machine Learning</span>
+    <span class="badge bg-secondary badge-pill">Engineering Math</span>
+  <span class="badge bg-secondary badge-pill">Statistics</span>
+  <span class="badge bg-secondary badge-pill">Database Management Systems - MySQL, Oracle</span>
+  <span class="badge bg-secondary badge-pill">Operations Research</span>
+  <span class="badge bg-secondary badge-pill mb-2">Data Structures and Algorithms</span
+  ><span class="badge bg-secondary badge-pill">Data Mining and Warehousing</span>
+  <br />
+                </p>
+                <a href="#" class="read-more-btn link" data-bs-toggle="modal" data-bs-target="#exampleModal2"></a>
+              </div>
+            </div>
+          </div>
+          
+    <!-- portfolio section starts here -->
+    <section class="portfolio" id="portfolio">
+      <div class="heading text-center pt-5">
+        <small></small>
+        <h3>My Projects</h3>
+      </div>
+
+      <div id="myBtnContainer" class="text-center mt-4">
+        <!-- here we will create custom attribute using data- for filtering -->
+        
+      </div>
+      <div class="portfolio-body">
+        <div class="row justify-content-evenly px-4">
+          <div class="post col-md-4 game all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img src="images/yelp-img.png" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">Yelp - Restaurant Recommendation System</h4>
+                <p> This project develops a platform for personalized dining recommendations using Yelp reviews, 
+                    business ratings, and user engagement. By applying text mining and a dual approach of 
+                    collaborative and content-based filtering, the system tailors suggestions to users’ preferences. It highlights top-rated restaurants with positive reviews, especially from elite users, and analyzes user rating patterns alongside restaurant features. This ensures highly relevant and personalized recommendations,
+                     helping diners in Arizona discover their ideal dining spots.</p>
+                <span class="badge bg-secondary badge-pill">Python</span>
+                <span class="badge bg-secondary badge-pill">Machine Learning</span>
+                <span class="badge bg-secondary badge-pill mb-2">Text Analysis</span
+                ><br />
+                <a href="https://github.com/ChetanaGPriya/yelp_restaurant" class="link">View here</a>
+              </div>
+            </div>
+          </div>
+          <div class="post col-md-4 website all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img
+                src="images/bitcoin-image.jpeg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body text-center">
+                <h4 class="card-title">Bitcoin - Environmental Impact</h4>
+                <p>This project analyzes the environmental impact of Bitcoin by investigating key factors that drive its electricity consumption and greenhouse emissions, including hash rate, Bitcoin price, mining rewards/halving events, and mining difficulty. The study explores the relationship between these factors and Bitcoin’s energy demand through statistical methods. The findings aim to shed light on the drivers of Bitcoin’s electricity consumption, 
+                    providing actionable insights into optimizing energy use in blockchain technology.</p>
+                <span class="badge bg-secondary badge-pill">Time Series Analysis</span>
+                <span class="badge bg-secondary badge-pill">Machine Learning</span>
+                <span class="badge bg-secondary badge-pill mb-2">Python</span>
+                <span class="badge bg-secondary badge-pill mb-2">Data Analysis</span>
+                <br />
+                <a href="https://github.com/ChetanaGPriya/bitcoin" class="read-more-btn link">View here</a>
+              </div>
+            </div>
+          </div>
+          <div class="post col-md-4 webapp all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img src="images/supply chain-img.jpg" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">Supply Chain Optimization</h4>
+                <p>The report, “Optimizing Construction Planning for Profit Maximization at YUVA Infra,” 
+                    presents a Linear Programming (LP) model to optimize resource allocation for various construction 
+                    projects, including apartments, houses, and commercial spaces. By analyzing factors like material and labor costs, machinery, and land, the project identifies the most profitable construction types and sizes to meet diverse client demands. This strategic approach ensures 
+                    efficient budget use and maximizes profitability while aligning with market needs.</p>
+                <span class="badge bg-secondary badge-pill">Excel</span>
+                <span class="badge bg-secondary badge-pill">Analytical Modeling</span>
+                <span class="badge bg-secondary badge-pill mb-2">Linear Programming</span
+                ><span class="badge bg-secondary badge-pill mb-2">Solver</span
+                    ><br />
+                <a href="https://github.com/ChetanaGPriya/Project-518" class="read-more-btn link">View here</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-evenly mt-4 px-4">
+          <div class="post col-md-4 game all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img src="images/CV-img.jpeg" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">Computer Vision</h4>
+                <p>The project report, titled “Engagement Detection in a Classroom,” 
+
+            proposes a computer vision (CV) system that automatically analyzes visual cues like facial expressions, hand raises, and head movements. This system aims to give real-time, 
+            objective feedback to teachers, helping them to quickly adjust their teaching to better engage students, using models like MTCNN for face detection and MediaPipe for hand tracking. </p>
+                <span class="badge bg-secondary badge-pill">Deep Leanring</span>
+                <span class="badge bg-secondary badge-pill">Neural Nets</span>
+                <span class="badge bg-secondary badge-pill mb-2">Tensorflow</span
+                ><br />
+                <a href="https://github.com/ChetanaGPriya/Computer-Vision-515" class="read-more-btn link">View here</a>
+              </div>
+            </div>
+          </div>
+          <div class="post col-md-4 website all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img src="images/6sigmaimg.jpeg" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">Lean Six Sigma Case Study</h4>
+                <p>This Lean Six Sigma project aimed to optimize Gentech’s proposal creation process to reduce cycle times. 
+                    Analysis of the process—from sales opportunity identification to proposal submission—highlighted inefficiencies, such as non-standard practices, redundant tasks, and excessive hand-offs among Bid Support Specialists (BSS). 
+                    Using ERP data, the project identified key delays in configuration approvals and pricing steps. The improvements aimed to cut cycle times by 15%, boosting Gentech’s operational efficiency and market competitiveness.</p>
+                <span class="badge bg-secondary badge-pill">Six Sigma Tools</span>
+                <span class="badge bg-secondary badge-pill">DMAIC</span>
+                <span class="badge bg-secondary badge-pill">Data Analysis</span>
+                <span class="badge bg-secondary badge-pill mb-2">Excel</span
+                ><br />
+                <a href="https://github.com/ChetanaGPriya/LSS-case-study" class="read-more-btn link">View here</a>
+              </div>
+            </div>
+          </div>
+          <div class="post col-md-4 all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img
+                src="images/wwebapp-img.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body text-center">
+                <h4 class="card-title">Hostel Management System</h4>
+                <p>As a Project Assistant under the guidance of the Head of the Department, I played a key role in developing an automated system for managing the university’s newly constructed dormitories.
+                    Using a combination of HTML, CSS, PHP, and MySQL, I developed a comprehensive and user-friendly platform. This platform was designed to manage a wide range of functions, including student attendance tracking, payment processing,
+                     and detailed management of student profiles and administrative records.
+                </p>
+                <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+                <span class="badge bg-secondary badge-pill">JavaScript</span>
+                <span class="badge bg-secondary badge-pill">MySQL</span>
+                <span class="badge bg-secondary badge-pill mb-2">Web App</span
+                ><br />
+                <a href="https://github.com/ChetanaGPriya/hostel-management" class="read-more-btn link">View here</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- portfolio section ends here -->
+
+    <!-- testimonial section starts  -->
+     
+    <!-- testimonial ends here -->
+
+    <!-- blog section starts -->
+    <section class="blog mt-5 pb-5" id="experiences">
+      <div class="heading text-center pt-5">
+        <small></small>
+        <h3>Experiences</h3>
+      </div>
+      <div class="row justify-content-evenly px-4 mt-4" data-aos="fade-up">
+        <div class="blogpost col-md-4 col-10 mt-2 mt-md-0 game all">
+          <div class="card">
+            
+            <div class="card-body px-4">
+                
+              <small>August 2024 - December 2024</small
+              ><span class="ms-3"></span>
+              <h4 class="card-title">
+                Capstone - Sonora Quest Laboratories
+              </h4>
+              <br><p>Tempe, Arizona</p><br>
+              <p class="text-muted">
+            
+                Analyzed reimbursement trends using Python, identifying coverage changes across CPT codes and health plan payers,
+resulting in insights that improved reimbursement rates. Developed dashboards in Power BI to track fluctuations in test coverage trends.
+<br><span class="badge bg-secondary badge-pill">Python</span>
+<span class="badge bg-secondary badge-pill">Power BI</span>
+<span class="badge bg-secondary badge-pill mb-2">Time Series Forecasting</span
+><br /></p>
+              <a href="#" class="read-more-btn link" data-bs-toggle="modal" data-bs-target="#exampleModal1"></a>
+            </div>
+          </div>
+        </div>
+        <div class="blogpost col-md-4 col-10 mt-5 mt-md-0 website all">
+          <div class="card">
+            
+            <div class="card-body px-4">
+                
+              <small>July 2024 - October 2024</small
+              ><span class="ms-3"></span>
+              <h4 class="card-title">
+               Data Analyst - Arizona Lottery
+              </h4><br><p>Tempe, Arizona</p><br>
+              <p class="text-muted">
+                Constructed dashboards leveraging Qlik Sense and Tableau for Arizona Lottery, leading to enhanced real-time
+tracking of sales by game types and price points. Implemented regression models to project next fiscal week’s sales.
+<br><br><span class="badge bg-secondary badge-pill">Excel</span>
+<span class="badge bg-secondary badge-pill">Qlik Sense</span>
+<span class="badge bg-secondary badge-pill mb-2">Tableau</span
+><span class="badge bg-secondary badge-pill mb-2">MySQL</span
+    ><br />
+              </p>
+              <a href="#" class="read-more-btn link" data-bs-toggle="modal" data-bs-target="#exampleModal2"></a>
+            </div>
+          </div>
+        </div>
+        <div class="blogpost col-md-4 col-10 mt-5 mt-md-0 webapp all">
+          <div class="card">
+           
+            <div class="card-body px-4">
+              <small>December 2022 - May 2023</small
+              ><span class="ms-3"></span>
+              <h4 class="card-title">
+                Data Analyst - Giant Leap Design Studios
+              </h4><br><p>Hyderabad, India</p><br>
+              <p class="text-muted">
+                Evaluated marketing effectiveness by performing advanced analysis with Python and Excel on competitors and social media
+                engagement metrics.
+                Executed market segmentation and positioning through Enginius which enabled to device pricing strategies to increase
+                revenue by $0.5 million and customer acquisition.
+                <br><span class="badge bg-secondary badge-pill">Excel</span>
+                <span class="badge bg-secondary badge-pill">Enginius</span>
+                <span class="badge bg-secondary badge-pill mb-2">Python</span
+                ><span class="badge bg-secondary badge-pill mb-2">Data Collection</span
+                    ><br /></p>
+              <a href="#" class="read-more-btn link" data-bs-toggle="modal" data-bs-target="#exampleModal3"></a>
+            </div>
+          </div>
+        </div>
+        <!-- here we will make modals if Read more link is clicked the modal will popup -->
+        <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              
+                <button type="button" class="btn-c rounded-pill" data-bs-dismiss="modal"><i class="bi bi-x-circle-fill"></i></button>
+              
+              <div class="modal-body px-4">
+                <div class="img">
+                  <img src="images/2048game.png" class="img-fluid" alt="">
+                </div>
+                <div class="content mt-3">
+                  <small>By Pawan Kumavat</small
+                    ><span class="text-muted ms-2">Mar 8,2022</span>
+                  <h4 class="card-title mt-3">Quis autem vea eum iure reprehenderit</h4>
+                  <div class="social-links mt-4">
+                      <button href="" class="rounded-pill dribble">
+                        <i class="bi bi-dribbble"></i>
+                      </button>
+                      <button href="" class="rounded-pill whatsapp">
+                        <i class="bi bi-whatsapp"></i>
+                      </button>
+                      <button href="" class="rounded-pill behance">
+                        <i class="bi bi-behance"></i>
+                      </button>
+                  </div>
+                  <p class="text-muted mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tempor eros a tellus auctor, nec suscipit nunc dignissim. Ut suscipit gravida augue sed elementum. Sed sed luctus nisl. Donec scelerisque nisi in sodales mattis. Vestibulum suscipit odio ac enim blandit sollicitudin. Aliquam ultrices sem quis urna placerat interdum. Etiam rutrum, quam sagittis tristique mollis, libero arcu scelerisque erat, eget tincidunt eros diam quis nunc.</p>
+                </div>
+              </div>
+              <div class="heading px-2">
+                <h3 class="fs-3 ms-3">Leave A Comment</h3>
+              </div>
+              <div class="contact-form ms-3 mt-3 pb-4 px-2">
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="Name"
+                  />
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="E-mail"
+                  />
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="Mobile No."
+                  />
+                </div>
+                <div class="mb-3">
+                  <textarea
+                    class="form-control"
+                    id="exampleFormControlTextarea1"
+                    placeholder="Message"
+                    rows="5"
+                  ></textarea>
+                </div>
+                <button class="c-btn h-btn mt-3 py-2 px-4 rounded-pill">
+                  Submit
+                </button>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              
+                <button type="button" class="btn-c rounded-pill" data-bs-dismiss="modal"><i class="bi bi-x-circle-fill"></i></button>
+              
+              <div class="modal-body px-4">
+                <div class="img">
+                  <img src="images/currency-converter.png" class="img-fluid" alt="">
+                </div>
+                <div class="content mt-3">
+                  <small>By Pawan Kumavat</small
+                    ><span class="text-muted ms-2 ms-md-0">Mar 8,2022</span>
+                  <h4 class="card-title mt-3">Quis autem vea eum iure reprehenderit</h4>
+                  <div class="social-links mt-4">
+                      <button href="" class="rounded-pill dribble">
+                        <i class="bi bi-dribbble"></i>
+                      </button>
+                      <button href="" class="rounded-pill whatsapp">
+                        <i class="bi bi-whatsapp"></i>
+                      </button>
+                      <button href="" class="rounded-pill behance">
+                        <i class="bi bi-behance"></i>
+                      </button>
+                  </div>
+                  <p class="text-muted mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tempor eros a tellus auctor, nec suscipit nunc dignissim. Ut suscipit gravida augue sed elementum. Sed sed luctus nisl. Donec scelerisque nisi in sodales mattis. Vestibulum suscipit odio ac enim blandit sollicitudin. Aliquam ultrices sem quis urna placerat interdum. Etiam rutrum, quam sagittis tristique mollis, libero arcu scelerisque erat, eget tincidunt eros diam quis nunc.</p>
+                </div>
+              </div>
+              <div class="heading px-2">
+                <h3 class="fs-3 ms-3"></h3>
+              </div>
+              <div class="contact-form ms-3 mt-3 pb-4 px-2">
+              
+                
+                
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              
+                <button type="button" class="btn-c rounded-pill" data-bs-dismiss="modal"><i class="bi bi-x-circle-fill"></i></button>
+              
+              <div class="modal-body px-4">
+                
+                <div class="content mt-3">
+                  <small>By Pawan Kumavat</small
+                    ><span class="text-muted ms-2 ms-md-0">Mar 8,2022</span>
+                  <h4 class="card-title mt-3">Quis autem vea eum iure reprehenderit</h4>
+                  <div class="social-links mt-4">
+                      <button href="" class="rounded-pill dribble">
+                        <i class="bi bi-dribbble"></i>
+                      </button>
+                      <button href="" class="rounded-pill whatsapp">
+                        <i class="bi bi-whatsapp"></i>
+                      </button>
+                      <button href="" class="rounded-pill behance">
+                        <i class="bi bi-behance"></i>
+                      </button>
+                  </div>
+                  <p class="text-muted mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tempor eros a tellus auctor, nec suscipit nunc dignissim. Ut suscipit gravida augue sed elementum. Sed sed luctus nisl. Donec scelerisque nisi in sodales mattis. Vestibulum suscipit odio ac enim blandit sollicitudin. Aliquam ultrices sem quis urna placerat interdum. Etiam rutrum, quam sagittis tristique mollis, libero arcu scelerisque erat, eget tincidunt eros diam quis nunc.</p>
+                </div>
+              </div>
+              <div class="heading px-2">
+                <h3 class="fs-3 ms-3">Leave A Comment</h3>
+              </div>
+              <div class="contact-form ms-3 mt-3 pb-4 px-2">
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="Name"
+                  />
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="E-mail"
+                  />
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="Mobile No."
+                  />
+                </div>
+                <div class="mb-3">
+                  <textarea
+                    class="form-control"
+                    id="exampleFormControlTextarea1"
+                    placeholder="Message"
+                    rows="5"
+                  ></textarea>
+                </div>
+                <button class="c-btn h-btn mt-3 py-2 px-4 rounded-pill">
+                  Submit
+                </button>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- blog section ends here -->
+
+    <!-- contact section starts -->
+    <section class="contact py-5" id="contact">
+      <div class="heading text-center">
+        <small>Get in Touch</small>
+        <h3>Feel Free to Contact</h3>
+      </div>
+      <div class="row justify-content-evenly mt-5">
+        <div class="col-md-5 col-10 contact-details" data-aos="slide-right">
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-geo-alt-fill"></i>
+            </div>
+            <div class="col-11">
+              <p>Tempe, Arizona</p>
+            </div>
+          </div>
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-telephone-fill"></i>
+            </div>
+            <div class="col-11">
+              <p>+1(928)671-8801</p>
+            </div>
+          </div>
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-send-fill"></i>
+            </div>
+            <div class="col-11">
+              <p>chetanag.work@gmail.com, cghanta@asu.edu</p>
+            </div>
+          </div>
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+                <i class="bi bi-send-fill"></i>
+              </div>
+              <div class="col-11">
+                <a href="https://www.linkedin.com/in/chetana-priya-ghanta/">LinkedIn</a>
+              </div>
+            
+          </div>
+        </div>
+        <div class="col-md-5 col-10 mt-3 mt-md-0" data-aos="slide-left">
+          <div class="contact-form">
+           
+          
+            
+            
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact section ends here -->
+
+      <!-- now we will make back to top button when user click on it it will be redirected to top page  -->
+    <button
+      type="button"
+      class="btn btn-floating btn-lg rounded-pill"
+      id="btn-back-to-top"
+    >
+      <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <!-- footer section starts  -->
+    <footer class="text-center text-muted py-4">
+      <h3 class="text-white pt-4" data-aos="fade-up">Portfolio</h3>
+      
+      
+      <hr class="text-muted my-4" />
+
+      <p>Copyright 2024 Portfolio | All Rights Reserved.</p>
+    </footer>
+    <!-- footer section ends here -->
+
+      <!-- bootstrap javascript cdn link  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- AOS library javascript link  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      // initializing AOS library
+      AOS.init({
+        duration: 1000,
+        offset: 50,
+      });
+    </script>
+    <!-- custom js file linking -->
+    <script src="js/script.js"></script>
+    
+  </body>
+</html>
